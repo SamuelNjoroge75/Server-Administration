@@ -1,0 +1,11 @@
+name: Greetings workflow
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello from the Server-Administration repo"
