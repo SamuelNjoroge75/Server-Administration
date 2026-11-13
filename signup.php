@@ -53,7 +53,7 @@ page_header('Sign up');
 ?>
 <h1>Create an account</h1>
 <?php if ($success): ?>
-  <p class="ok">Account created. Welcome :) <a href="login.php">Log in</a></p>
+  <p class="ok">Account created. Welcome! <a href="login.php">Log in</a></p>
 <?php else: ?>
   <?php foreach ($errors as $err): ?><p class="error"><?= e($err) ?></p><?php endforeach; ?>
   <form method="POST" action="signup.php">

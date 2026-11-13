@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
     // Same message for both cases so attackers can't tell which was wrong
-    $error = "Incorrect username or password.";
+    $error = "Incorrect username or password. Please try again";
 }
 
 require 'partials.php';
